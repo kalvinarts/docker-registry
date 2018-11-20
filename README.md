@@ -20,4 +20,8 @@ Create the registry container with:
 
 `./create-registry.sh`
 
-That simple ;)
+Login to your new registry:
+
+`docker login https://your.registry.com`
+
+
