@@ -21,3 +21,4 @@ source .env
 docker run \
   -v $REGISTRY_AUTH_VOL:/auth \
   registry:2 sh -c "htpasswd -Bbn $1 $2 >> /auth/htpasswd"
+
